@@ -1,18 +1,26 @@
 
 {
-  "name": "sidekick",
-  "version": "1.0.0",
-  "private": true,
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~57.0.0",
-    "react": "19.2.3",
-    "react-native": "0.86.0"
+  "expo": {
+    "name": "SIDEKICK",
+    "slug": "sidekick",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#101713"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#101713"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22ca108b-9435-4740-85cb-3223ec0e4991"
+      }
+    }
   }
 }
-
